@@ -3,15 +3,15 @@
     "builds": [
       {
         "src": "app.py",
-        "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb" }
+        "use": "@vercel/python"
       }
     ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "app.py"
-      }
+    "ignore": [
+      "node_modules",
+      "venv",
+      "__pycache__",
+      "*.log",
+      "*.csv",
+      "*.xlsx"
     ]
   }
-  

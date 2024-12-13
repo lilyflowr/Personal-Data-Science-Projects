@@ -1,17 +1,9 @@
 {
     "version": 2,
     "builds": [
-      {
-        "src": "app.py",
-        "use": "@vercel/python"
-      }
-    ],
-    "ignore": [
-      "node_modules",
-      "venv",
-      "__pycache__",
-      "*.log",
-      "*.csv",
-      "*.xlsx"
+        {
+            "src": "app.py",
+            "use": "@vercel/python"
+        }
     ]
-  }
+}

@@ -1,7 +1,0 @@
-.vercel
-node_modules
-venv
-__pycache__
-*.log
-*.csv
-*.xlsx
